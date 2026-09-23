@@ -1,6 +1,6 @@
 /* Emulation of the cassette machine
  *
- * Copyright (C) 1994 Ian Collier. 
+ * Copyright (C) 1994 Ian Collier.
  * xz81 changes (C) 1995-6 Russell Marks.
  * xace changes (C) 1997 Edward Patel.
  * xace changes (C) 2010-12 Lawrence Woodman.
@@ -23,6 +23,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
+#include <unistd.h>
 
 #include "z80.h"
 #include "tape.h"
